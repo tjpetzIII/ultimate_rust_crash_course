@@ -39,8 +39,8 @@ fn sum() {
     // and add them all together (increment the `sum` variable).  Hint: You should get 255
     // Run it with `cargo run sum`
 
-    for x in 7..24 {
-        sum = sum + x;
+    for x in 7..=23 {
+        sum += x;
     }
 
 
@@ -55,7 +55,7 @@ fn double() {
     // with `cargo run double`  Hint: The answer is 9 times.
     while x <= 500 {
         x = x * 2;
-        count = count + 1;
+        count += 1;
     }
 
 
